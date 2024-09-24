@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://backgroundabstract.com/wp-content/uploads/edd/2022/02/5594016-e1656071131636.jpg");
+    background-size: cover;
+}
+
+#name {
+    color: white;
+}
+
+.calculator {
+    width: 300px;
+    background-color: slategray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(12, 12, 13, 0.2);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    border-radius: 20px;
+}
+
+.screen {
+    grid-column: 1 / span 4;
+    background-color: #666;
+    color: darkgrey;
+    padding: 10px;
+    text-align: right;
+    font-size: 1.5rem;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #555;
+    color: #f5f1f1;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #050603;
+}
+
+.operation {
+    background-color: #f889ca;
+}
+
+.equal-btn {
+    background-color: #12ef37;
+}
+
+.clear-btn {
+    background-color: #ef1d12;
+}
